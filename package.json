@@ -1,0 +1,35 @@
+{
+  "name": "p3a7k",
+  "version": "1.0.3",
+  "description": "一条命令启动本地 Web 服务并自动打开浏览器的最小 npm CLI 示例",
+  "type": "module",
+  "bin": {
+    "p3a7k": "./cli.mjs"
+  },
+  "files": [
+    "cli.mjs"
+  ],
+  "keywords": [
+    "cli",
+    "npx",
+    "h3",
+    "demo",
+    "scaffold"
+  ],
+  "author": "web5173 <9755445@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web5173/p3a7k.git"
+  },
+  "homepage": "https://github.com/web5173/p3a7k#readme",
+  "bugs": {
+    "url": "https://github.com/web5173/p3a7k/issues"
+  },
+  "engines": {
+    "node": ">=20.11.1"
+  },
+  "dependencies": {
+    "h3": "2.0.1-rc.5"
+  }
+}
